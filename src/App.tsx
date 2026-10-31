@@ -549,8 +549,8 @@ export default function App() {
 
   // Hapus cache lama sekali jalan agar komentar yang Anda edit di kodingan langsung muncul
   useEffect(() => {
-    if (localStorage.getItem("alfari_guestbook_comments")) {
-      localStorage.removeItem("alfari_guestbook_comments");
+    if (localStorage.getItem("kahlil_guestbook_comments")) {
+      localStorage.removeItem("kahlil_guestbook_comments");
     }
   }, []);
 
@@ -1567,7 +1567,7 @@ export default function App() {
                   id="guestMessage"
                   rows={3}
                   required
-                  placeholder="Tuliskan komentar atau feedback untuk Al-Fari..."
+                  placeholder="Tuliskan komentar atau feedback untuk Kahlil..."
                   value={guestMessage}
                   onChange={(e) => setGuestMessage(e.target.value)}
                   className="w-full px-4 py-3 rounded-xl bg-slate-900/80 border border-slate-700/80 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-all resize-none"
