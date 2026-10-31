@@ -21,7 +21,7 @@ const PROFILE_DATA = {
   shortName: "Lill",
   role: "Arabic Language Enthusiast & Junior Data Analyst",
   subRole: "Web Enthusiast & 3D Interactive Explorer",
-  welcomeTag: "Welcome to My Domain",
+  welcomeTag: "Welcome to My Portofolio",
   heroBio:
     "Siswa pemula yang memiliki antusiasme mendalam dalam memadukan dunia pendidikan Pondok Pesantren modern dengan perkembangan teknologi untuk menciptakan pengalaman digital yang intuitif, cepat, dan berkesan.",
   aboutBio1:
